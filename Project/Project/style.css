@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    font-family: 'Onest', sans-serif;
+}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+
+.modal-sheet .modal-dialog {
+    width: 380px;
+    transition: bottom .75s ease-in-out;
+  }
+  .modal-sheet .modal-footer {
+    padding-bottom: 2rem;
+  }
+.navbar{
+    background-image: url("../images/background.png");
+    background-size: 95%;
+    height: 90px;
+}
+.school-bag{
+    position: relative;
+    top: -20px;
+    right: -40px;
+    width: 36px;
+    height: 36px;
+}
+.First-text{
+    position: relative;
+    right: -83px;
+}
+.weknow{
+    position: relative;
+    bottom: -18px;
+    font-size: 16px;
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+}
+.later {
+    position: relative;
+    bottom: -3px;
+    font-size: 13px;
+    font-family: 'Onest', sans-serif;
+    font-weight: 600;
+}
+.span-blue{
+    color: #136EF6;
+}
+.arrows-04{
+    position: relative;
+    right: -110px;
+}
+.Second-text{
+    position: relative;
+    right: -140px;
+}
+.Want{
+    position: relative;
+    bottom: -18px;
+    font-size: 13px;
+    font-family: 'Onest', sans-serif;
+    font-weight: 600;
+}
+.Leavearequest {
+    position: relative;
+    bottom: -3px;
+    font-size: 16px;
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+}
+
+.modal-content{
+    background-image: url("../images/background.png");
+    background-size: 100%;
+}
+.arrows-042{
+    position: relative;
+    right: -158px;
+    bottom: -5px;
+}
+.whatsuprise{
+    position: relative;
+    right: -170px;
+}
+.computer{
+    position: relative;
+    right: -220px;
+    width: 32px;
+    height: 32px;
+}
+
+.Wantdev{
+    font-size: 34px;
+    font-weight: 700;
+    color:#136EF6;
+}
+.Get{
+    font-size: 18px;
+    font-weight: 600; 
+}
+.revenue{
+    width: 42px;
+    height: 46.77px;
+}
+.revenue{
+  float: left;
+  margin-right: 10px;
+}
+.text-p{
+    font-size: 15px;
+    float: -10px;
+}
+.span-bold{
+    font-weight: 700;
+}
+.suprise{
+    font-size: 12px;
+    font-weight: 300; 
+}
+.btn-close{
+    position: relative;
+    right: -765px;
+    bottom: -10px;
+}
+.btn-call{
+    width: 260px;
+    height: 44px;
+}
+#inputName{
+    width: 260px;
+    height: 50px;
+}
+#inputEmail{
+    width: 260px;
+    height: 50px;
+}
+#inputPhone{
+    width: 260px;
+    height: 50px;
+}
+#form-select{
+    width: 260px;
+    height: 50px;
+}
+.block-right{
+    position: relative;
+    left: -35px;
+    bottom: -40px;
+}
+.politic{
+    position: relative;
+    bottom: -6px;
+    color: #4A4A53;
+    font-weight: 400;
+    font-size: 9px;
+}
+.tag-a{
+    color: #4A4A53;
+}
+.form-control{
+    border:#136EF6 1px solid;
+}
+.wait{
+    font-weight: 700;
+}
+.Main-h1{
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+}
+.Main-p{
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+}
+.main-svg{
+    position: relative;
+    left: -100px;
+}
